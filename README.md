@@ -3,10 +3,10 @@ A real-time data pipeline that streams data from Kafka, processes the data in a 
 used to ingest and analyze clickstream data from a web application.
 
 #producer.py
-The above file can act as an dummy clickstream data producer.
+- The file can act as an dummy clickstream data producer.
 
 #data_store.py
-Data_Store.py python file handles the following:
+- Data_Store.py python file handles the following:
 1. Read Kafka messages from kafka topic.
 2. Connect to MySql Database.
 3. Create Table to store incoming clickstream data(raw).
